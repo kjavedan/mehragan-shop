@@ -28,12 +28,7 @@ export const categoriesData = {
 						{ name: "سیم ۱ در ۱.۵" },
 						{ name: "سیم ۱ در ۲.۵" },
 						{ name: "سیم ۱ در ۴" },
-						{ name: "سیم ۲ در ۱" },
-						{ name: "سیم ۲ در ۱.۵" },
-						{ name: "سیم ۲ در ۲.۵" },
-						{ name: "سیم ۲ در ۴" },
-						{ name: "سیم ۳ در ۱" },
-						{ name: "سیم ۳ در ۱.۵" },
+						{ name: "سیم ۱ در ۶" },
 						{ name: "کابل ۲ در ۱.۵ افشان" },
 						{ name: "کابل ۲ در ۲.۵ افشان" },
 						{ name: "کابل ۳ در ۱.۵ افشان" },
@@ -161,7 +156,6 @@ export const categoriesData = {
 				},
 			],
 		},
-
 		{
 			name: "فاضلاب",
 			subcategories: [

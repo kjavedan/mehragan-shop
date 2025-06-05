@@ -151,10 +151,10 @@ export default function CategoryPage() {
 							className="mb-3"
 						/>
 
-						<div className="flex space-x-2 space-x-reverse overflow-x-auto pb-2">
+						<div className="flex space-x-2 space-x-reverse overflow-x-auto pt-1 pb-2">
 							<Badge
 								variant={selectedSubcategory === "all" ? "default" : "outline"}
-								className="cursor-pointer whitespace-nowrap"
+								className="cursor-pointer whitespace-nowrap px-3.5 py-1.5"
 								onClick={() => setSelectedSubcategory("all")}
 							>
 								همه
