@@ -43,7 +43,7 @@ export default function OrderPage() {
 		for (const [category, categoryItems] of Object.entries(groupedItems)) {
 			message += `📦 ${category}:\n`;
 			for (const item of categoryItems) {
-				message += `• ${item.name} - ${item.quantity} عدد`;
+				message += `• ${item.name} - ${item.quantity} عدد \n`;
 			}
 			message += "\n";
 		}
