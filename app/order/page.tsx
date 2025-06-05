@@ -43,12 +43,10 @@ export default function OrderPage() {
 		for (const [category, categoryItems] of Object.entries(groupedItems)) {
 			message += `📦 ${category}:\n`;
 			for (const item of categoryItems) {
-				message += `• ${item.name} - ${item.quantity} عدد - ${(item.price * item.quantity).toLocaleString("fa-IR")} تومان\n`;
+				message += `• ${item.name} - ${item.quantity} عدد`;
 			}
 			message += "\n";
 		}
-
-		message += `💰 مجموع کل: ${getTotalPrice().toLocaleString("fa-IR")} تومان`;
 
 		// In a real app, this would open WhatsApp
 		const whatsappUrl = `https://wa.me/971502597949?text=${encodeURIComponent(message)}`;
